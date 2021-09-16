@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\05. Common\Service.Common.Collection\Service.Common.Collection.csproj" />
+    <ProjectReference Include="..\..\05. Common\Service.Common.Mapping\Service.Common.Mapping.csproj" />
+    <ProjectReference Include="..\..\05. Common\Service.Common.Paging\Service.Common.Paging.csproj" />
+    <ProjectReference Include="..\Products.Persistence.Database\Products.Persistence.Database.csproj" />
+  </ItemGroup>
+
+</Project>

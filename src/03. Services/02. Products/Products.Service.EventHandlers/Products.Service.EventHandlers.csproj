@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Products.Common\Products.Common.csproj" />
+    <ProjectReference Include="..\Products.Persistence.Database\Products.Persistence.Database.csproj" />
+  </ItemGroup>
+
+</Project>
